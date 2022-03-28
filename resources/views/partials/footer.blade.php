@@ -1,13 +1,4 @@
 <footer>
-  <div class="container">
-    <div class="bottomFooter">
-      <span>Sign-up Now!</span>
-      <div class="container-social">
-        <span>Follow us</span>
-        <img src="" alt="">
-      </div>
-    </div>
-  </div>
   <div class="navList">
     <div class="navFooter">
       <div class="container">
@@ -49,7 +40,20 @@
           <li><a href="#">Dc Power Visa</a></li>
         </ul>
       </div>
-      <img src="">
+      <img src="{{asset('img/dc-logo-bg.png')}}">
     </div>
-  </div>  
+  </div>
+  <div class="containerBottomFooter">
+    <div class="bottomFooter">
+      <span>Sign-up Now!</span>
+      <div class="container-social">
+        <span class="follow">Follow us</span>
+        <a href="#"><img src="{{asset('img/footer-facebook.png')}}" alt="Facebook"></a>
+        <a href="#"><img src="{{asset('img/footer-twitter.png')}}" alt="Twitter"></a>
+        <a href="#"><img src="{{asset('img/footer-youtube.png')}}" alt="Youtube"></a>
+        <a href="#"><img src="{{asset('img/footer-pinterest.png')}}" alt="Pinterest"></a>
+        <a href="#"><img src="{{asset('img/footer-periscope.png')}}" alt="Periscope"></a>
+      </div>
+    </div>
+  </div>
 </footer>
