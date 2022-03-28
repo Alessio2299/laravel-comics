@@ -11,7 +11,7 @@
     </div>
     <ul>
       <li><a href="#">Characters</a></li>
-      <li><a href="#">Comics</a></li>
+      <li class="active"><a href="#">Comics</a></li>
       <li><a href="#">Movies</a></li>
       <li><a href="#">Tv</a></li>
       <li><a href="#">Games</a></li>
