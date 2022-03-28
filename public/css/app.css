@@ -1,0 +1,92 @@
+.top-header {
+  background-color: blue;
+  text-align: end;
+}
+
+.top-header .container {
+  width: 75%;
+  margin: auto;
+}
+
+.top-header .container span {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 12px;
+  margin-left: 50px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+}
+
+nav img {
+  width: 80px;
+}
+
+nav li {
+  display: inline-block;
+  padding: 50px 12px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  list-style: none;
+}
+
+nav li.active {
+  position: relative;
+}
+
+nav li.active:before {
+  content: "";
+  width: 60%;
+  height: 5px;
+  background-color: #0c7cec;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+}
+
+nav li.active a {
+  color: #0c7cec;
+}
+
+nav li a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav .searchBar {
+  position: relative;
+  border-bottom: 2px solid blue;
+  width: 130px;
+}
+
+nav .searchBar input {
+  width: 85%;
+  border: none;
+  text-align: end;
+  padding: 5px 15% 5px 0;
+}
+
+nav .searchBar input:focus {
+  outline: none;
+}
+
+nav .searchBar i {
+  position: absolute;
+  cursor: pointer;
+  top: 4px;
+  right: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
