@@ -67,10 +67,10 @@ nav .searchBar {
 }
 
 nav .searchBar input {
-  width: 85%;
+  width: 80%;
   border: none;
   text-align: end;
-  padding: 5px 15% 5px 0;
+  padding: 5px 0;
 }
 
 nav .searchBar input:focus {
@@ -88,6 +88,13 @@ nav .searchBar i {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+.jumbo {
+  height: 300px;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-position: top;
+  background-size: cover;
 }
 
 .navList {
@@ -178,6 +185,10 @@ nav .searchBar i {
   color: #0582f9;
 }
 
+.containerBottomFooter .bottomFooter .container-social a:hover {
+  filter: brightness(2);
+}
+
 .containerBottomFooter .bottomFooter .container-social .follow {
   color: #0582f9;
   border: none;
@@ -215,13 +226,6 @@ nav .searchBar i {
   text-transform: uppercase;
   margin-left: 10px;
   font-size: 13px;
-}
-
-.containerMain .jumbo {
-  height: 300px;
-  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
-  background-position: top;
-  background-size: cover;
 }
 
 .containerMain .content {

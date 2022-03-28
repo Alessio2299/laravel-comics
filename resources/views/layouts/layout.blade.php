@@ -11,6 +11,7 @@
   <body>
     @include('partials.header')
     <main>
+      <div class="jumbo"></div>
       @yield('content')
     </main>
     @include('partials.footer')

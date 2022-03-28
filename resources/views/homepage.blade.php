@@ -1,8 +1,7 @@
 @extends('layouts.layout')
 
 @section('content')
-  <main class="containerMain">
-    <div class="jumbo"></div>
+  <div class="containerMain">
     <div class="content">
       <div class="title-section">
         <span>current series</span>
@@ -43,5 +42,5 @@
         </div>
       </div>
     </section>
-  </main>
+  </div>
 @endsection
