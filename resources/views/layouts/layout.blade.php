@@ -1,6 +1,5 @@
-
 <!DOCTYPE html>
-  <html lang="it">
+  <html lang="eng">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,7 @@
   <body>
     @include('partials.header')
     <main>
-      @yield('name')
+      @yield('content')
     </main>
     @include('partials.footer')
   </body>

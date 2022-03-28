@@ -184,3 +184,112 @@ nav .searchBar i {
   cursor: default;
 }
 
+.containerMain {
+  background-color: #1c1c1c;
+}
+
+.containerMain .info {
+  background-color: #0582f9;
+}
+
+.containerMain .info .content-info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.containerMain .info .content-info .card {
+  height: 55px;
+}
+
+.containerMain .info .content-info .card img {
+  height: 100%;
+  vertical-align: middle;
+}
+
+.containerMain .info .content-info .card span {
+  color: #cbe5fe;
+  text-transform: uppercase;
+  margin-left: 10px;
+  font-size: 13px;
+}
+
+.containerMain .jumbo {
+  height: 300px;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-position: top;
+  background-size: cover;
+}
+
+.containerMain .content {
+  width: 70%;
+  margin: auto;
+  color: #fff;
+  padding: 30px 0;
+  font-size: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.containerMain .content .card {
+  width: 150px;
+  padding: 15px 2px;
+  margin: 9px;
+  cursor: pointer;
+}
+
+.containerMain .content .card .card-img {
+  height: 150px;
+  width: 100%;
+}
+
+.containerMain .content .card .card-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.containerMain .content .card h4 {
+  font-size: 11px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-top: 15px;
+}
+
+.containerMain .content .title-section {
+  position: absolute;
+  bottom: 97%;
+  left: 0;
+}
+
+.containerMain .content .title-section span {
+  text-transform: uppercase;
+  padding: 12px 30px;
+  background-color: #0582f9;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.containerMain .button {
+  text-align: center;
+}
+
+.containerMain .button span {
+  text-transform: uppercase;
+  padding: 12px 70px;
+  background-color: #0582f9;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+  margin: 20px 0;
+  color: #fff;
+}
+
