@@ -16,11 +16,11 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     $comics = config('comics');
     return view('homepage', ['comics' => $comics]);
-});
+})->name('home');
 
 Route::get('/news', function () {
     return view('news');
-});
+})->name('news');
 
 Route::get('/comics/{id}', function ($id) {
     $comics = config('comics');
@@ -30,4 +30,4 @@ Route::get('/comics/{id}', function ($id) {
     } else{
         return "Error 404";
     }
-});
+})->name('comic');

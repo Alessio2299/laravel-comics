@@ -11,14 +11,14 @@
     </div>
     <ul>
       <li><a href="#">Characters</a></li>
-      <li class="active"><a href="/">Comics</a></li>
+      <li class="{{ (Request::route()->getName() == 'home'  ||  Request::route()->getName() == 'comics') ? 'active' : ''}}"><a href="{{route('home')}}">Comics</a></li>
       <li><a href="#">Movies</a></li>
       <li><a href="#">Tv</a></li>
       <li><a href="#">Games</a></li>
       <li><a href="#">Collectibles</a></li>
       <li><a href="#">Videos</a></li>
       <li><a href="#">Fans</a></li>
-      <li><a href="/news">News</a></li>
+      <li class="{{ Request::route()->getName() == 'news' ? 'active' : ''}}"><a href="{{route('news')}}">News</a></li>
       <li><a href="#">Shop</a></li>
     </ul>
     <div class="searchBar">
