@@ -22,3 +22,12 @@ Route::get('/news', function () {
     return view('news');
 });
 
+Route::get('/comics/{id}', function ($id) {
+    $comics = config('comics');
+
+    if(is_numeric($id) && $id >= 0 && $id < count($comics)){
+        return view('comic', ['comic' => $comics[$id]]);
+    } else{
+        return "Error 404";
+    }
+});
