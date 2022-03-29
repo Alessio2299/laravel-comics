@@ -85,4 +85,42 @@
       }
     }
   }
+  .infoComic{
+    background-color: grey;
+    height: 400px;
+    .content{
+      display: flex;
+      width: 70%;
+      margin: auto;
+      justify-content: space-between;
+      .talent,
+      .specs{
+        width: 48%;
+        .art,
+        .written,
+        .series,
+        .price,
+        .sale{
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          padding: 10px 0;
+          border-bottom: 1px solid #fff;
+          .title{
+            width: 30%;
+            display: inline-block;
+            height: 100%;
+          }
+          .person,
+          .data {
+            width: 70%;
+          }
+        }
+        .border{
+          border-top: 1px solid #fff;
+          margin-top: 20px;
+        }
+      }
+    }
+  }
 }

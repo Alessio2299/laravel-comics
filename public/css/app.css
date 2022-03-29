@@ -398,3 +398,81 @@ nav .searchBar i {
   text-transform: uppercase;
 }
 
+.comic .infoComic {
+  background-color: grey;
+  height: 400px;
+}
+
+.comic .infoComic .content {
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.comic .infoComic .content .talent,
+.comic .infoComic .content .specs {
+  width: 48%;
+}
+
+.comic .infoComic .content .talent .art,
+.comic .infoComic .content .talent .written,
+.comic .infoComic .content .talent .series,
+.comic .infoComic .content .talent .price,
+.comic .infoComic .content .talent .sale,
+.comic .infoComic .content .specs .art,
+.comic .infoComic .content .specs .written,
+.comic .infoComic .content .specs .series,
+.comic .infoComic .content .specs .price,
+.comic .infoComic .content .specs .sale {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.comic .infoComic .content .talent .art .title,
+.comic .infoComic .content .talent .written .title,
+.comic .infoComic .content .talent .series .title,
+.comic .infoComic .content .talent .price .title,
+.comic .infoComic .content .talent .sale .title,
+.comic .infoComic .content .specs .art .title,
+.comic .infoComic .content .specs .written .title,
+.comic .infoComic .content .specs .series .title,
+.comic .infoComic .content .specs .price .title,
+.comic .infoComic .content .specs .sale .title {
+  width: 30%;
+  display: inline-block;
+  height: 100%;
+}
+
+.comic .infoComic .content .talent .art .person,
+.comic .infoComic .content .talent .art .data,
+.comic .infoComic .content .talent .written .person,
+.comic .infoComic .content .talent .written .data,
+.comic .infoComic .content .talent .series .person,
+.comic .infoComic .content .talent .series .data,
+.comic .infoComic .content .talent .price .person,
+.comic .infoComic .content .talent .price .data,
+.comic .infoComic .content .talent .sale .person,
+.comic .infoComic .content .talent .sale .data,
+.comic .infoComic .content .specs .art .person,
+.comic .infoComic .content .specs .art .data,
+.comic .infoComic .content .specs .written .person,
+.comic .infoComic .content .specs .written .data,
+.comic .infoComic .content .specs .series .person,
+.comic .infoComic .content .specs .series .data,
+.comic .infoComic .content .specs .price .person,
+.comic .infoComic .content .specs .price .data,
+.comic .infoComic .content .specs .sale .person,
+.comic .infoComic .content .specs .sale .data {
+  width: 70%;
+}
+
+.comic .infoComic .content .talent .border,
+.comic .infoComic .content .specs .border {
+  border-top: 1px solid #fff;
+  margin-top: 20px;
+}
+
