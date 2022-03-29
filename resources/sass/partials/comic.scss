@@ -43,4 +43,46 @@
       color: #fff;
     }
   }
+  .content{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    padding: 50px 0;
+    .description{
+      width: 68%;
+      margin: auto;
+      .buy{
+        width: 100%;
+        background-color: greenyellow;
+        height: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+        .price{
+          width: 75%;
+          display: flex;
+          padding: 0 20px;
+          height: 100%;
+          align-items: center;
+          justify-content: space-between;
+          border-right: 1px solid #000;
+        }
+        .available{
+          text-transform: uppercase;
+        }
+        .checkAvailability{
+          width: 25%;
+          text-align: center;
+        }
+      }
+    }
+    .adv{
+      width: 32%;
+      text-align: end;
+      span{
+        text-transform: uppercase;
+      }
+    }
+  }
 }
