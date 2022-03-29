@@ -22,7 +22,7 @@ Route::get('/news', function () {
     return view('news');
 })->name('news');
 
-Route::get('/comics/{id}', function ($id) {
+Route::get('/comic/{id}', function ($id) {
     $comics = config('comics');
 
     if(is_numeric($id) && $id >= 0 && $id < count($comics)){

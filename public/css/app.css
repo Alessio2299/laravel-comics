@@ -15,6 +15,10 @@
   margin-left: 50px;
 }
 
+.top-header .container i {
+  color: #fff;
+}
+
 nav {
   display: flex;
   align-items: center;
@@ -40,6 +44,10 @@ nav li.active {
   position: relative;
 }
 
+nav li.active a {
+  color: #0582f9;
+}
+
 nav li.active:before {
   content: "";
   width: 60%;
@@ -51,13 +59,18 @@ nav li.active:before {
   position: absolute;
 }
 
-nav li.active a {
+nav li i {
+  margin-left: 5px;
   color: #0582f9;
 }
 
 nav li a {
   text-decoration: none;
   color: #000;
+}
+
+nav li a:hover {
+  color: #0582f9;
 }
 
 nav .searchBar {
@@ -71,6 +84,18 @@ nav .searchBar input {
   border: none;
   text-align: end;
   padding: 5px 0;
+}
+
+nav .searchBar input::-moz-placeholder {
+  color: #000;
+}
+
+nav .searchBar input:-ms-input-placeholder {
+  color: #000;
+}
+
+nav .searchBar input::placeholder {
+  color: #000;
 }
 
 nav .searchBar input:focus {
@@ -374,6 +399,7 @@ nav .searchBar i {
   align-items: center;
   box-shadow: 0px 1px 1px #000;
   margin: 20px 0;
+  cursor: pointer;
 }
 
 .comic .content .description .buy .price {

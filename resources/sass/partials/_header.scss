@@ -11,6 +11,9 @@
       font-size: 12px;
       margin-left: 50px;
     }
+    i{
+      color: #fff;
+    }
   }
 }
 nav{
@@ -30,26 +33,33 @@ nav{
     font-weight: 600;
     list-style: none;
     &.active{
-    position: relative;
-    &:before{
-      content: "";
-      width: 60%;
-      height: 5px;
-      background-color: $principalColor;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      position: absolute;
+      position: relative;
+      a{
+        color: $principalColor;
+      }
+      &:before{
+        content: "";
+        width: 60%;
+        height: 5px;
+        background-color: $principalColor;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+      }
     }
-    a{
+    i{
+      margin-left: 5px;
       color: $principalColor;
     }
-  } 
     a{
       text-decoration: none;
       color: #000;
+      &:hover{
+        color: $principalColor;
+      }
     }
-  }
+  } 
   .searchBar{
     position: relative;
     border-bottom: 2px solid $principalColor;
@@ -59,6 +69,9 @@ nav{
       border: none;
       text-align: end;
       padding: 5px 0;
+      &::placeholder{
+        color: #000;
+      }
       &:focus{
       outline: none;
       }
