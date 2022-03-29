@@ -1,7 +1,8 @@
+@import "./variables.scss";
 .containerMain{
   background-color: rgb(28, 28, 28);
   .info{
-    background-color: rgb(5, 130, 249);
+    background-color: $principalColor;
     .content-info{
       display: flex;
       justify-content: space-around;
@@ -62,7 +63,7 @@
       span{
         text-transform: uppercase;
         padding: 12px 30px;
-        background-color: rgb(5, 130, 249);
+        background-color: $principalColor;
         font-weight: 600;
         font-size: 20px;
       }
@@ -73,7 +74,7 @@
     span{
       text-transform: uppercase;
       padding: 12px 70px;
-      background-color: rgb(5, 130, 249);
+      background-color: $principalColor;
       font-size: 15px;
       font-weight: 600;
       cursor: pointer;

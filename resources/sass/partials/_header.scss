@@ -1,5 +1,6 @@
+@import "./variables.scss";
 .top-header{
-  background-color: rgb(12,	124, 236);
+  background-color: $principalColor;
   text-align: end;
   .container{
     width: 75%;
@@ -34,14 +35,14 @@ nav{
       content: "";
       width: 60%;
       height: 5px;
-      background-color: rgb(12,	124, 236);
+      background-color: $principalColor;
       bottom: 0;
       left: 50%;
       transform: translateX(-50%);
       position: absolute;
     }
     a{
-      color: rgb(12,	124, 236);
+      color: $principalColor;
     }
   } 
     a{
@@ -51,7 +52,7 @@ nav{
   }
   .searchBar{
     position: relative;
-    border-bottom: 2px solid rgb(12,	124, 236);
+    border-bottom: 2px solid $principalColor;
     width: 130px;
     input{
       width: 80%;

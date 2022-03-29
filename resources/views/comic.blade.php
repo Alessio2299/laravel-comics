@@ -14,8 +14,8 @@
         <h1>{{$comic['title']}}</h1>
         <div class="buy">
           <div class="price">
-            <span>U.S. Price : {{$comic['price']}}</span>
-            <span class="available">Available</span>
+            <span><b>U.S. Price :</b> {{$comic['price']}}</span>
+            <span class="available"><b>Available</b></span>
           </div>
           <div class="checkAvailability">
             <span>Check Availability</span>
@@ -53,7 +53,7 @@
           <h2>Specs</h2>
           <div class="series border">
             <span class="title">Series:</span>
-            <span class="data">{{$comic['series']}}</span>
+            <span class="data color">{{$comic['series']}}</span>
           </div>
           <div class="price">
             <span class="title">U.S. Prices:</span>
@@ -63,6 +63,24 @@
             <span class="title">On Sale Date:</span>
             <span class="data">{{$comic['sale_date']}}</span>
           </div>
+        </div>
+      </div>
+      <div class="infoSite">
+        <div class="digital bordLeft">
+          <span>Digital Comics</span>
+          <img src="{{asset('img/buy-comics-digital-comics.png')}}" alt="">
+        </div>
+        <div class="shop">
+          <span>Shop Dc</span>
+          <img src="{{asset('img/buy-comics-subscriptions.png')}}" alt="">
+        </div>
+        <div class="locator">
+          <span>Comic Shop Locator</span>
+          <img src="{{asset('img/buy-comics-shop-locator.png')}}" alt="">
+        </div>
+        <div class="sub bordRight">
+          <span>Subscriptions</span>
+          <img src="{{asset('img/buy-comics-merchandise.png')}}" alt="">
         </div>
       </div>
     </div>

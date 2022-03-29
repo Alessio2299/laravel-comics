@@ -1,5 +1,5 @@
 .top-header {
-  background-color: #0c7cec;
+  background-color: #0582f9;
   text-align: end;
 }
 
@@ -44,7 +44,7 @@ nav li.active:before {
   content: "";
   width: 60%;
   height: 5px;
-  background-color: #0c7cec;
+  background-color: #0582f9;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -52,7 +52,7 @@ nav li.active:before {
 }
 
 nav li.active a {
-  color: #0c7cec;
+  color: #0582f9;
 }
 
 nav li a {
@@ -62,7 +62,7 @@ nav li a {
 
 nav .searchBar {
   position: relative;
-  border-bottom: 2px solid #0c7cec;
+  border-bottom: 2px solid #0582f9;
   width: 130px;
 }
 
@@ -298,7 +298,7 @@ nav .searchBar i {
 }
 
 .comic .containerImage {
-  background-color: blue;
+  background-color: #0582f9;
   height: 80px;
   width: 100%;
   position: relative;
@@ -319,7 +319,7 @@ nav .searchBar i {
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: blue;
+  background-color: #0582f9;
   text-transform: uppercase;
   text-align: center;
   padding: 2px 0;
@@ -340,7 +340,7 @@ nav .searchBar i {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: blue;
+  background-color: #0582f9;
   display: inline-block;
   padding: 2px 4px;
   text-transform: uppercase;
@@ -360,13 +360,19 @@ nav .searchBar i {
   margin: auto;
 }
 
+.comic .content .description h1 {
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
 .comic .content .description .buy {
   width: 100%;
-  background-color: greenyellow;
+  background-color: #48b047;
   height: 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: 0px 1px 1px #000;
   margin: 20px 0;
 }
 
@@ -380,13 +386,22 @@ nav .searchBar i {
   border-right: 1px solid #000;
 }
 
-.comic .content .description .buy .available {
+.comic .content .description .buy .price b {
+  color: #acf97b;
+}
+
+.comic .content .description .buy .price span {
+  color: #fff;
+}
+
+.comic .content .description .buy .price .available {
   text-transform: uppercase;
 }
 
 .comic .content .description .buy .checkAvailability {
   width: 25%;
   text-align: center;
+  color: #fff;
 }
 
 .comic .content .adv {
@@ -399,8 +414,7 @@ nav .searchBar i {
 }
 
 .comic .infoComic {
-  background-color: grey;
-  height: 400px;
+  background-color: #f4f4f4;
 }
 
 .comic .infoComic .content {
@@ -429,7 +443,7 @@ nav .searchBar i {
   display: flex;
   justify-content: space-between;
   padding: 10px 0;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .comic .infoComic .content .talent .art .title,
@@ -470,9 +484,93 @@ nav .searchBar i {
   width: 70%;
 }
 
+.comic .infoComic .content .talent .art .person,
+.comic .infoComic .content .talent .art .color,
+.comic .infoComic .content .talent .written .person,
+.comic .infoComic .content .talent .written .color,
+.comic .infoComic .content .talent .series .person,
+.comic .infoComic .content .talent .series .color,
+.comic .infoComic .content .talent .price .person,
+.comic .infoComic .content .talent .price .color,
+.comic .infoComic .content .talent .sale .person,
+.comic .infoComic .content .talent .sale .color,
+.comic .infoComic .content .specs .art .person,
+.comic .infoComic .content .specs .art .color,
+.comic .infoComic .content .specs .written .person,
+.comic .infoComic .content .specs .written .color,
+.comic .infoComic .content .specs .series .person,
+.comic .infoComic .content .specs .series .color,
+.comic .infoComic .content .specs .price .person,
+.comic .infoComic .content .specs .price .color,
+.comic .infoComic .content .specs .sale .person,
+.comic .infoComic .content .specs .sale .color {
+  color: #0582f9;
+}
+
+.comic .infoComic .content .talent .art .color,
+.comic .infoComic .content .talent .written .color,
+.comic .infoComic .content .talent .series .color,
+.comic .infoComic .content .talent .price .color,
+.comic .infoComic .content .talent .sale .color,
+.comic .infoComic .content .specs .art .color,
+.comic .infoComic .content .specs .written .color,
+.comic .infoComic .content .specs .series .color,
+.comic .infoComic .content .specs .price .color,
+.comic .infoComic .content .specs .sale .color {
+  text-transform: uppercase;
+}
+
 .comic .infoComic .content .talent .border,
 .comic .infoComic .content .specs .border {
-  border-top: 1px solid #fff;
+  border-top: 1px solid #e0e0e0;
   margin-top: 20px;
+}
+
+.comic .infoComic .infoSite {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #e0e0e0;
+}
+
+.comic .infoComic .infoSite .digital,
+.comic .infoComic .infoSite .shop,
+.comic .infoComic .infoSite .locator,
+.comic .infoComic .infoSite .sub {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 17.5%;
+  padding: 15px;
+  border-right: 1px solid #e0e0e0;
+}
+
+.comic .infoComic .infoSite .digital img,
+.comic .infoComic .infoSite .shop img,
+.comic .infoComic .infoSite .locator img,
+.comic .infoComic .infoSite .sub img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  filter: invert(1);
+  filter: brightness(0.8);
+}
+
+.comic .infoComic .infoSite .digital span,
+.comic .infoComic .infoSite .shop span,
+.comic .infoComic .infoSite .locator span,
+.comic .infoComic .infoSite .sub span {
+  font-size: 13px;
+  color: #cccccc;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.comic .infoComic .infoSite .bordLeft {
+  border-left: 1px solid #e0e0e0;
+}
+
+.comic .infoComic .infoSite .bordRight {
+  border-right: 1px solid #e0e0e0;
 }
 
